@@ -34,12 +34,21 @@
    export PATH="$HOME/.cargo/bin:$PATH"
    ```
 
+运行：
+```
+ssc@ssc-root-> cargo build
+ssc@ssc-root-> cargo build --release # 这个属于优化编译
+ssc@ssc-root-> ./target/debug/hellorust.exe
+ssc@ssc-root-> ./target/release/hellorust.exe # 如果前面是优化编译，则这样运行
+ssc@ssc-root-> cargo run # 编译和运行合在一起
+ssc@ssc-root-> cargo run --release # 同上，区别是是优化编译的
+```
 
 
 ### 简单学习和使用
 
 1. 参考<https://www.rust-lang.org/zh-CN/learn/get-started>
-2. 
+2. 极客学院 http://wiki.jikexueyuan.com/project/rust-primer/quickstart/rust-travel.html
 
 1. ```
    curl https://sh.rustup.rs -sSf | sh
