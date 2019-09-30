@@ -1,1 +1,5 @@
-/target/
+/target/debug/build/
+/target/debug/examples/
+/target/debug/native/
+/target/debug/incremental/
+/target/debug/deps
