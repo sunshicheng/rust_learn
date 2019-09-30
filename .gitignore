@@ -2,4 +2,4 @@
 /hello-rust/target/debug/examples/
 /hello-rust/target/debug/native/
 /hello-rust/target/debug/incremental/
-/hello-rust/target/debug/deps
+/hello-rust/target/debug/deps/
