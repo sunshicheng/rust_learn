@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let rust = "孙事成";
+    println!("Hello, {}!",rust);
 }
